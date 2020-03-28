@@ -15,7 +15,7 @@
 ```sh
 npm install
 # or
-yarn add
+yarn install
 ```
 
 ## Run or testing
