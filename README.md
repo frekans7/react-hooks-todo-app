@@ -1,5 +1,5 @@
 # React Hooks Todo List App
-> a simple Todo List App using **React Hooks, Conxtext** and **Material-UI**
+> a simple Todo List App using **React Hooks, Context** and **Material-UI**
 
 ### Architectural features of the application
 - **No** Redux
