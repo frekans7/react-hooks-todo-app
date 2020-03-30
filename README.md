@@ -10,15 +10,15 @@
 - `usePersist`(custom hooks) the state to **localStorage**
 -  **Light/Dark** theme
 
-## Installation
-
+## Install
+Fist, fork the repo and clone to your local. Enter folder project by cmd and run
 ```sh
 npm install
 # or
-yarn install
+yarn
 ```
 
-## Run or testing
+## Run 
 
 ```sh
 npm start
