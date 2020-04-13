@@ -29,8 +29,8 @@ const NavBar = () => {
   const [drawerOpened, setDrawerOpened] = useState(false);
 
   const classes = useStyles();
-  var mode;
-  const changeTheme = () => {
+  let mode;
+  const changeTheme = (mode) => {
     if (state.myTheme === "dark") {
       mode = "light";
     } else {
@@ -68,7 +68,7 @@ const NavBar = () => {
           </Typography>
 
           <Tooltip title="Toggle light/dark theme">
-            <IconButton color="inherit" onClick={changeTheme}>
+            <IconButton color="inherit" onClick={() => changeTheme(mode)}>
               <ToggleButton />
             </IconButton>
           </Tooltip>
